@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regisztárció</title>
+</head>
+<body>
+    <h1>Regisztráció</h1>
+
+    <form action="#" method="get">
+        <label for="nev">Teljes Név</label><br>
+        <input type="text" name="nev" id="nev" placeholder="pl. Vak Béla" required>
+        <br>
+
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" placeholder="someone@example.com" required>
+        <br>
+
+        <label for="phone-number">Telefonszám</label><br>
+        <input type="tel" name="phone-number" id="phone-number" placeholder="+36123456789" required>
+        <br>
+
+        <!-- csak egyet lehet választani-->
+        <label for="gender">Férfi</label><br>
+        <input type="radio" name="gender" id="male"><br>
+        <label for="gender">Nő</label><br>
+        <input type="radio" name="gender" id="female"><br>
+
+        <!-- checkbox többet lehet választani-->
+        <label for="sports">Foci</label>
+        <input type="checkbox" name="sports" id="football" value="football"><br>
+
+        <label for="sports">Röplabda</label>
+        <input type="checkbox" name="sports" id="volleyball" value="volleyball"><br>
+
+        <button type="submit">Regisztárció</button>
+    </form>
+</body>
+</html>
